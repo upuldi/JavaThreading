@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 /**
  * Created by udoluweera on 5/8/16.
  */
-public class InvokeAllTest {
+public class ExecutorServiceInvokeAllTest {
 
 
     public static void main(String[] args) {
