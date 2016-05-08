@@ -49,6 +49,7 @@ public class SynchronizationFix {
             /* Waiting the main thread to finish the execution of both threads */
             t1.join();
             t2.join();
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
