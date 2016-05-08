@@ -39,11 +39,11 @@ public class ThreadCreation {
 
     public static void main(String[] args) {
 
-        /* First way of defining threads */
+        /* First way of defining threads - Extending Thread Class */
         Runner run1 = new Runner();
         run1.start();
 
-        /* Second way of defining threads */
+        /* Second way of defining threads - Implementing Runnable */
         AnotherRunner run2 = new AnotherRunner();
         Thread thread1 = new Thread(run2);
         thread1.start();
@@ -64,6 +64,10 @@ public class ThreadCreation {
             }
         });
         run3.start();
+
+        /* Using callable ... */
+
+
 
     }
 }

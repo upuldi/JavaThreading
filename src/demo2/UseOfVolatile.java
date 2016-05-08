@@ -41,6 +41,7 @@ public class UseOfVolatile {
     public static void main(String[] args) {
         Runner runner = new Runner();
 
+
         runner.start();
 
         System.out.println("Press return to stop .....");
